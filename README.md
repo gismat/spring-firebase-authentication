@@ -7,9 +7,9 @@ I searched all over internet for this, but I did not find what I wanted. As a re
 Contact: jadmen94@gmail.com
 
 ## Usage
-1. Add admin sdk json config to "config/firebase/********.json"
-2. Define path of admin sdk json config on /config/firebase/FirebaseConfig.java:33
-3. Define project firebase database url on /config/firebase/FirebaseResources.java:5
+1. Add admin sdk json config to resources/config/firebase/********.json
+2. Define path of admin sdk json config on java/config/firebase/FirebaseConfig.java:33
+3. Define project firebase database url on java/config/firebase/FirebaseResources.java:5
 
 For Firebase authorization send request with X-Authorization-Firebase header to "api/firebaseauthenticate"
 
